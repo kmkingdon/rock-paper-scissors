@@ -1,0 +1,118 @@
+header {
+  width: 100vw;
+  height: 20vh;
+  background-color: grey;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header h1 {
+  color: white;
+  font-size: 4rem;
+}
+
+header ul {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+}
+
+header li {
+  padding: 0rem 4rem;
+}
+
+header img {
+  width: 4rem;
+}
+
+main {
+  height: 70vh;
+  width: 100vw;
+}
+
+.player-info {
+  display: flex;
+  flex-flow: row nowrap;
+  height: 20vh;
+}
+
+.player1 {
+  width: 50vw;
+  background-color: red;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.player1 button, .player2 button {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  border-radius: 5rem;
+  background-color: grey;
+}
+
+.player1 p {
+  padding-top: 2rem;
+  font-size: 1.5rem;
+}
+
+
+.player1 h2, .player2 h2 {
+  font-size: 2rem;
+  color: white;
+  padding-top: 2rem;
+}
+
+.player2 {
+  width: 50vw;
+  background-color: blue;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.results {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.results div {
+  width: 33vw;
+  height: 50vh;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+.results div h4 {
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+
+.compared-results {
+  background-color: grey;
+  border: solid black 5px;
+}
+
+.compared-results button {
+  font-size: 2rem;
+  background-color: white;
+  margin-top: 2rem;
+  border-radius: 5rem;
+}
+
+#choice1, #choice2, #winner{
+  padding-top: 2rem;
+  font-size: 2rem;
+}
+
+footer {
+  background-color: grey;
+  height: 10vh;
+}
+
+footer p {
+  padding: 1rem 0rem 0rem 1rem;
+}
